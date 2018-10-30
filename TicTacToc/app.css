@@ -1,0 +1,46 @@
+body {
+    font: normal 25px courier, arial;
+    text-align: center;
+}
+
+.tic-tac-toe .scoreboard {
+  margin: auto;
+}
+
+.tic-tac-toe .scoreboard .score {
+    text-align: center;
+    font-size: 35px
+}
+
+.tic-tac-toe .scoreboard .score.X {
+    color: #238EE1;
+}
+
+.tic-tac-toe .scoreboard .score.O {
+    color: #FF1010;
+}
+
+
+.tic-tac-toe .board table {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 30px auto;
+}
+
+.tic-tac-toe .board td {
+    border: solid;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font:  100px helvetica neue, arial;
+    cursor: pointer;
+}
+
+
+.tic-tac-toe .board td.X {
+    color: #238EE1;
+}
+
+.tic-tac-toe .board td.O {
+    color: #FF1010;
+}
